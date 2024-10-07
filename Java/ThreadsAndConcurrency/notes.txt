@@ -1,0 +1,6 @@
+Volatile vs Static
+
+Static variables are visible across all instances of the class running in any of the threads.
+But static variables are locally cached in threads.
+
+Volatile variables are not locally cached in threads. And are always fetched from main memory
