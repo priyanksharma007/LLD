@@ -1,0 +1,6 @@
+Choosing static method are always better choice over constructor to obtain instance.
+
+Prob1. Get instance of few Classes without making them public
+Scenario : Shape -> Circle, Square etc. Client will invoke a common code
+
+Prob2. Do the above without factory class
